@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# 仮想環境
+venv/
+.venv/
+
+# MNIST のデータ（step2_cnn_torch.py を初めて実行すると自動でダウンロードされる。約 64MB）
+data/
+
+# 学習済みの重み（実行すれば作り直せる）
+*.pt
+
+# 卒研の元のコード（研究室から渡されたものなので、リポジトリには入れない）
+*.m
+
+# OS / エディタ
+Thumbs.db
+.DS_Store
+.vscode/
